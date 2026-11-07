@@ -1,4 +1,11 @@
 .screenshots{max-width:1160px;margin:0 auto;padding:48px 30px 88px;scroll-margin-top:24px}
+.nav-beta{color:#197b70;font-weight:600;white-space:nowrap}
+.small{line-height:1.9}.phone-beta{display:block;padding:11px;background:#2a8e79;color:white;border-radius:9px;text-align:center;font-size:12px}
+.beta-section{max-width:1100px;margin:0 auto 32px;padding:48px;display:grid;grid-template-columns:1fr 1.1fr;gap:64px;background:#e8f4ee;border:1px solid #d9e9e1;border-radius:32px;scroll-margin-top:24px}
+.beta-copy h2{font-size:36px;line-height:1.35;letter-spacing:-1px;margin:20px 0}.beta-copy>p:not(.eyebrow){font-size:15px;line-height:1.9;color:#596d65}.beta-copy .cta{background:#197b70;margin-top:12px}.beta-copy .beta-note{font-size:12px!important;margin-top:0}
+.beta-install ol{list-style:none;margin:0;padding:0}.beta-install li{display:flex;gap:18px;margin-bottom:22px}.beta-install li>span{font-size:12px;color:#197b70;padding-top:4px;font-variant-numeric:tabular-nums}.beta-install h3{font-size:18px;margin:0 0 6px;font-weight:600}.beta-install li p{font-size:14px;line-height:1.8;margin:0;color:#596d65}.beta-qr{display:flex;align-items:center;gap:20px;padding-top:10px}.beta-qr img{width:112px;height:112px;background:white;border-radius:12px;flex-shrink:0}.beta-qr p{font-size:14px;line-height:1.8;color:#285b4e;margin:0}.beta-qr small{display:block;font-size:12px;color:#596d65;margin-top:6px}
+@media(max-width:1000px){.beta-section{margin:0 30px 32px;padding:36px;gap:36px}}
+@media(max-width:700px){.beta-section{grid-template-columns:1fr;margin:0 20px 28px;padding:28px 24px;gap:24px;border-radius:24px}.beta-copy h2{font-size:29px}.home-nav .links a:nth-child(3){display:none}.beta-qr{gap:16px}.beta-qr img{width:104px;height:104px}}
 .screenshots .heading{align-items:center}.screenshots .eyebrow{margin:0 0 16px;letter-spacing:2px}
 .screen-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:28px}
 .screen-item{margin:0;min-width:0}.screen-link{display:block;border:1px solid #e1dceb;border-radius:30px;overflow:hidden;background:#f7f4fc;box-shadow:0 16px 40px #34214d0d;transition:transform .2s ease,box-shadow .2s ease}
